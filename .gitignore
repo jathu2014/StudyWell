@@ -1,0 +1,20 @@
+# macOS files
+.DS_Store
+
+# Xcode build output
+build/
+DerivedData/
+
+# Personal Xcode settings
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Exported builds
+*.ipa
+*.dSYM/
+
+# Local secrets
+.env
+.env.*
