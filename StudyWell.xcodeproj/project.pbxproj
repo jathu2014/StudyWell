@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		879B40633083C5D5009DC985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879B404D3083C5D2009DC985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879B40543083C5D2009DC985;
+			remoteInfo = StudyWell;
+		};
+		879B406D3083C5D5009DC985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879B404D3083C5D2009DC985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879B40543083C5D2009DC985;
+			remoteInfo = StudyWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		879B40553083C5D2009DC985 /* StudyWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879B40623083C5D5009DC985 /* StudyWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		879B406C3083C5D5009DC985 /* StudyWellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyWellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		879B40AC3083CA64009DC985 /* Exceptions for "StudyWell" folder in "StudyWell" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 879B40543083C5D2009DC985 /* StudyWell */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		879B40573083C5D2009DC985 /* StudyWell */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				879B40AC3083CA64009DC985 /* Exceptions for "StudyWell" folder in "StudyWell" target */,
+			);
+			path = StudyWell;
+			sourceTree = "<group>";
+		};
+		879B40653083C5D5009DC985 /* StudyWellTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudyWellTests;
+			sourceTree = "<group>";
+		};
+		879B406F3083C5D5009DC985 /* StudyWellUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StudyWellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879B40523083C5D2009DC985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		879B405F3083C5D5009DC985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		879B40693083C5D5009DC985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		879B404C3083C5D2009DC985 = {
+			isa = PBXGroup;
+			children = (
+				879B40573083C5D2009DC985 /* StudyWell */,
+				879B40653083C5D5009DC985 /* StudyWellTests */,
+				879B406F3083C5D5009DC985 /* StudyWellUITests */,
+				879B40563083C5D2009DC985 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		879B40563083C5D2009DC985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879B40553083C5D2009DC985 /* StudyWell.app */,
+				879B40623083C5D5009DC985 /* StudyWellTests.xctest */,
+				879B406C3083C5D5009DC985 /* StudyWellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879B40543083C5D2009DC985 /* StudyWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879B40743083C5D5009DC985 /* Build configuration list for PBXNativeTarget "StudyWell" */;
+			buildPhases = (
+				879B40513083C5D2009DC985 /* Sources */,
+				879B40523083C5D2009DC985 /* Frameworks */,
+				879B40533083C5D2009DC985 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				879B40573083C5D2009DC985 /* StudyWell */,
+			);
+			name = StudyWell;
+			productName = StudyWell;
+			productReference = 879B40553083C5D2009DC985 /* StudyWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		879B40613083C5D5009DC985 /* StudyWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879B40773083C5D5009DC985 /* Build configuration list for PBXNativeTarget "StudyWellTests" */;
+			buildPhases = (
+				879B405E3083C5D5009DC985 /* Sources */,
+				879B405F3083C5D5009DC985 /* Frameworks */,
+				879B40603083C5D5009DC985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879B40643083C5D5009DC985 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				879B40653083C5D5009DC985 /* StudyWellTests */,
+			);
+			name = StudyWellTests;
+			productName = StudyWellTests;
+			productReference = 879B40623083C5D5009DC985 /* StudyWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		879B406B3083C5D5009DC985 /* StudyWellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879B407A3083C5D5009DC985 /* Build configuration list for PBXNativeTarget "StudyWellUITests" */;
+			buildPhases = (
+				879B40683083C5D5009DC985 /* Sources */,
+				879B40693083C5D5009DC985 /* Frameworks */,
+				879B406A3083C5D5009DC985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879B406E3083C5D5009DC985 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				879B406F3083C5D5009DC985 /* StudyWellUITests */,
+			);
+			name = StudyWellUITests;
+			productName = StudyWellUITests;
+			productReference = 879B406C3083C5D5009DC985 /* StudyWellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879B404D3083C5D2009DC985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					879B40543083C5D2009DC985 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					879B40613083C5D5009DC985 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 879B40543083C5D2009DC985;
+					};
+					879B406B3083C5D5009DC985 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 879B40543083C5D2009DC985;
+					};
+				};
+			};
+			buildConfigurationList = 879B40503083C5D2009DC985 /* Build configuration list for PBXProject "StudyWell" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 879B404C3083C5D2009DC985;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 879B40563083C5D2009DC985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879B40543083C5D2009DC985 /* StudyWell */,
+				879B40613083C5D5009DC985 /* StudyWellTests */,
+				879B406B3083C5D5009DC985 /* StudyWellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879B40533083C5D2009DC985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		879B40603083C5D5009DC985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		879B406A3083C5D5009DC985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879B40513083C5D2009DC985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		879B405E3083C5D5009DC985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		879B40683083C5D5009DC985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		879B40643083C5D5009DC985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879B40543083C5D2009DC985 /* StudyWell */;
+			targetProxy = 879B40633083C5D5009DC985 /* PBXContainerItemProxy */;
+		};
+		879B406E3083C5D5009DC985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879B40543083C5D2009DC985 /* StudyWell */;
+			targetProxy = 879B406D3083C5D5009DC985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		879B40723083C5D5009DC985 /* Debug configuration for PBXProject "StudyWell" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		879B40733083C5D5009DC985 /* Release configuration for PBXProject "StudyWell" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879B40753083C5D5009DC985 /* Debug configuration for PBXNativeTarget "StudyWell" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jathu2014.StudyWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		879B40763083C5D5009DC985 /* Release configuration for PBXNativeTarget "StudyWell" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jathu2014.StudyWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		879B40783083C5D5009DC985 /* Debug configuration for PBXNativeTarget "StudyWellTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jathu2014.StudyWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyWell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyWell";
+			};
+			name = Debug;
+		};
+		879B40793083C5D5009DC985 /* Release configuration for PBXNativeTarget "StudyWellTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jathu2014.StudyWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyWell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudyWell";
+			};
+			name = Release;
+		};
+		879B407B3083C5D5009DC985 /* Debug configuration for PBXNativeTarget "StudyWellUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jathu2014.StudyWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudyWell;
+			};
+			name = Debug;
+		};
+		879B407C3083C5D5009DC985 /* Release configuration for PBXNativeTarget "StudyWellUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jathu2014.StudyWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudyWell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879B40503083C5D2009DC985 /* Build configuration list for PBXProject "StudyWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879B40723083C5D5009DC985 /* Debug configuration for PBXProject "StudyWell" */,
+				879B40733083C5D5009DC985 /* Release configuration for PBXProject "StudyWell" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		879B40743083C5D5009DC985 /* Build configuration list for PBXNativeTarget "StudyWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879B40753083C5D5009DC985 /* Debug configuration for PBXNativeTarget "StudyWell" */,
+				879B40763083C5D5009DC985 /* Release configuration for PBXNativeTarget "StudyWell" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		879B40773083C5D5009DC985 /* Build configuration list for PBXNativeTarget "StudyWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879B40783083C5D5009DC985 /* Debug configuration for PBXNativeTarget "StudyWellTests" */,
+				879B40793083C5D5009DC985 /* Release configuration for PBXNativeTarget "StudyWellTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		879B407A3083C5D5009DC985 /* Build configuration list for PBXNativeTarget "StudyWellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879B407B3083C5D5009DC985 /* Debug configuration for PBXNativeTarget "StudyWellUITests" */,
+				879B407C3083C5D5009DC985 /* Release configuration for PBXNativeTarget "StudyWellUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879B404D3083C5D2009DC985 /* Project object */;
+	validationLevel = 1;
+}
